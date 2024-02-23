@@ -1,0 +1,46 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "Hoai An",
+      "year": 21,
+      "place": "Ha Noi"
+    },
+    {
+      "id": "2",
+      "name": "Dat Anh",
+      "year": 22,
+      "place": "Thai Binh"
+    },
+    {
+      "id": "4",
+      "name": "Trung",
+      "year": 21,
+      "place": "Quoc Oai"
+    },
+    {
+      "id": "5",
+      "name": "Van Thang",
+      "year": 19,
+      "place": "Vinh Tuy"
+    },
+    {
+      "id": "6",
+      "name": "Huy Viet",
+      "year": 21,
+      "place": "Thanh Hoa"
+    },
+    {
+      "id": "7",
+      "name": "Phuong Trinh",
+      "year": 20,
+      "place": "Ha Noi"
+    },
+    {
+      "id": "8",
+      "name": "Thu Phuong",
+      "year": 21,
+      "place": "Hung Yen"
+    }
+  ]
+}
