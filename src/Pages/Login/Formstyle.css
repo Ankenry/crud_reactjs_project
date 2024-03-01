@@ -1,0 +1,163 @@
+.body {
+    display        : flex;
+    justify-content: center;
+}
+
+.Login-page {
+    width         : 450px;
+    height        : 800px;
+    background    : white;
+    display       : flex;
+    align-items   : center;
+    flex-direction: column;
+    gap           : 100px;
+}
+
+.main {
+    width           : 430px;
+    height          : 500px;
+    display         : flex;
+    flex-direction  : column;
+    justify-content : space-between;
+    align-items     : center;
+    margin-top      : 70px;
+    border          : 2px solid black;
+    border-radius   : 1rem;
+    background-color: #bde3d2;
+    padding         : 10px;
+}
+
+.top {
+    display        : flex;
+    flex-direction : column;
+    justify-content: space-between;
+    align-items    : center;
+    width          : 50%;
+    height         : 112px;
+}
+
+svg.MuiSvgIcon-root.MuiSvgIcon-fontSizeMedium.css-i4bv87-MuiSvgIcon-root {
+    width : 75px;
+    height: 75px;
+}
+
+.middle {
+    display        : flex;
+    flex-direction : column;
+    justify-content: space-between;
+    align-items    : center;
+    width          : 100%;
+    height         : 280px;
+}
+
+.middle-top {
+    width          : 100%;
+    display        : flex;
+    flex-direction : column;
+    justify-content: space-between;
+    align-items    : unset;
+    height         : 180px;
+}
+
+.middle-bottom {
+    width          : 100%;
+    height         : 70px;
+    /* border      : 1px solid black; */
+    display        : flex;
+    flex-direction : column;
+    justify-content: space-between;
+    align-items    : center;
+}
+
+button.mdl-btm_summit {
+    width        : 100%;
+    height       : 40px;
+    background   : blue;
+    color        : white;
+    font-size    : 16px;
+    border-radius: 5px;
+}
+
+.mdl-btm_bottom {
+    width          : 100%;
+    display        : flex;
+    flex-direction : row;
+    justify-content: space-between;
+    align-items    : center;
+}
+
+.mdl-btm_btm_a {
+    color: #8989ef;
+}
+
+.mdl-input_top {
+    position: relative;
+}
+
+input.input_top {
+    width        : 100%;
+    height       : 50px;
+    font-size    : 20px;
+    padding      : 0 10px;
+    width        : 95%;
+    border       : 1px solid black;
+    transition   : 0.25s ease;
+    border-radius: 4px;
+}
+
+input.input_top:focus {
+    border      : 1px solid blue;
+    border-color: yellow;
+}
+
+.label-input_top {
+    position      : absolute;
+    top           : 50%;
+    transform     : translateY(-50%);
+    left          : 11px;
+    user-select   : none;
+    pointer-events: none;
+    color         : rgb(99, 73, 73);
+    transition    : 0.25s ease;
+}
+
+.input_top:not(:placeholder-shown)+.label-input_top,
+
+.input_top:focus+.label-input_top {
+    top             : 0px;
+    left            : 10px;
+    padding         : 0 10px;
+    display         : inline-block;
+    color           : rgb(84, 87, 239);
+    background-color: white;
+}
+
+input.input_bottom {
+    border       : 1px solid black;
+    width        : 95%;
+    height       : 50px;
+    font-size    : 20px;
+    padding      : 0px 10px;
+    border-radius: 4px;
+}
+
+.top-img {
+    width : 100px;
+    height: 100px;
+}
+
+label.mdl-top-label {
+    width          : 200px;
+    height         : 30px;
+    display        : flex;
+    flex-direction : row;
+    justify-content: flex-start;
+    align-items    : center;
+    font-size      : 20px;
+    gap            : 10px;
+}
+
+input.mdl-top-label_checkbox {
+    width : 20px;
+    height: 20px;
+}

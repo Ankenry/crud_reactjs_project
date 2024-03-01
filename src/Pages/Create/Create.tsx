@@ -15,7 +15,7 @@ function Create() {
     axios.post('http://localhost:3001/users', value)
     .then(res => {
       console.log(res)
-      navigation('/')
+      navigation('/home')
       alert(`Submit success user ${value.name}`)
     })
     .catch(err => console.log(err))
@@ -42,7 +42,7 @@ function Create() {
             onChange={e => setValue({...value, place: e.target.value})}/>
           </div>
           <button className='btn btn-success'>Submit</button>
-          <Link to="/" className='btn btn-primary ms-3'>Back</Link>
+          <Link to="/home" className='btn btn-primary ms-3'>Back</Link>
         </form>
       </div>
 

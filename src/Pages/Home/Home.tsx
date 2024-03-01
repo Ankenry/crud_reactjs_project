@@ -1,6 +1,6 @@
 import axios from 'axios'
 import React, { useEffect, useState } from 'react'
-import { Link, useNavigate } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 interface Users{
   id: number;
@@ -32,6 +32,7 @@ const Home: React.FC = () => {
 
   return (
     <div className="d-flex flex-column justify-content-center align-items-center bg-light vh-100">
+        <Link to="/" className='btn btn-sm btn-primary me-5'>LogOut</Link>
         <h1>List of Users</h1>
         <div className="w-75 rounded bg-white border shadow p-4 ">
           <div className='d-flex justify-content-end'>

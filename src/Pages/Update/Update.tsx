@@ -33,7 +33,7 @@ function Update() {
     axios.put(`http://localhost:3001/users/${id}`, value)
       .then(res => {
         console.log(res);
-        navigate('/');
+        navigate('/home');
         alert(`Update success user ${value.name}`);
       })
       .catch(err => console.log(err));
@@ -80,7 +80,7 @@ function Update() {
             />
           </div>
           <button className="btn btn-success">Submit</button>
-          <Link to="/" className="btn btn-primary ms-3">
+          <Link to="/home" className="btn btn-primary ms-3">
             Back
           </Link>
         </form>

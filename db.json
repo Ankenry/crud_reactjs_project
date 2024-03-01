@@ -42,5 +42,27 @@
       "year": 21,
       "place": "Hung Yen"
     }
+  ],
+  "account_users": [
+    {
+      "id": 1,
+      "email": "Ankenry2k2@gmail.com",
+      "password": 1123
+    },
+    {
+      "id": 2,
+      "email": "anhoai0310@gmail.com",
+      "password": 55678
+    },
+    {
+      "email": "nguyenvanan495@gmail.com",
+      "password": "13579",
+      "id": 3
+    },
+    {
+      "email": "henrythanhtuyen@gmail.com",
+      "password": "2453464",
+      "id": 4
+    }
   ]
 }
